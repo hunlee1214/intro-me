@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    padding: 32px;
+}
+
+#name {
+    font-size: 48px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 20px 0;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 30px 0 10px 0;
+}
+
+#cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 40px;
+}
+
+
+#profile img{
+    transition: 
+}
+
+
+.menu-btn:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: all 0.4s ease-in;
+}
+
+.profile{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.profile img:hover {
+    width: 320px;
+    height: 320px;
+    transform: scale(1.2);
+    transition: all 1s;
+}
